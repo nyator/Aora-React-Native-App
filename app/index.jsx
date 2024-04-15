@@ -10,7 +10,7 @@ export default function App() {
   return (
   <SafeAreaView className="bg-primary h-full">
     <ScrollView contentContainerStyle={{height: '100%',}}>
-        <View className="w-full h-full justify-center items-center px-4 ">
+        <View className="w-full min-h-[85vh] justify-center items-center px-4 ">
             <Image 
             source={images.logo}
             className="w-[115px] h-[34.07px]"
@@ -40,7 +40,7 @@ export default function App() {
 
             <CustomButton 
             title="Continue with Email"
-            handlePress={() => router.push('/sign-up')}
+            handlePress={() => router.push('/sign-in')}
             containerStyles= "w-full mt-7"
             /> 
         </View>

@@ -32,7 +32,7 @@ const submit = () => {
           className="w-[115px] h-[34.07px] mt-[50px]" />
 
           <Text className="text-2xl text-white font-psemibold mt-10">
-            Sign up to Aora
+            Sign Up to Aora
           </Text>
 
           <FormField 

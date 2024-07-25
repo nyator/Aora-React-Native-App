@@ -3,8 +3,8 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <View>
-      <Text>Home</Text>
+    <View className='mt-10 mx-3'>
+      <Text className="flex text-center">Home</Text>
     </View>
   )
 }
